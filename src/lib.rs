@@ -30,7 +30,7 @@
 
 use std::collections::HashMap;
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct URLBuilder {
     protocol: String,
     host: String,
